@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medlemskabs",
+  "info": {
+    "singularName": "medlemskab",
+    "pluralName": "medlemskabs",
+    "displayName": "Medlemskab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Beskrivelse": {
+      "type": "text"
+    },
+    "Pris": {
+      "type": "biginteger"
+    },
+    "Ydelse": {
+      "type": "string"
+    }
+  }
+}

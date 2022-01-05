@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kampsports",
+  "info": {
+    "singularName": "kampsport",
+    "pluralName": "kampsports",
+    "displayName": "Kampsport"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Beskrivelse": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

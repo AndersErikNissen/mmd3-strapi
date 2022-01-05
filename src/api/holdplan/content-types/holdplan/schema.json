@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "holdplans",
+  "info": {
+    "singularName": "holdplan",
+    "pluralName": "holdplans",
+    "displayName": "Holdplan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Dato": {
+      "type": "datetime"
+    },
+    "Varighed": {
+      "type": "biginteger"
+    },
+    "Beskrivelse": {
+      "type": "text"
+    },
+    "Lokation": {
+      "type": "string"
+    }
+  }
+}

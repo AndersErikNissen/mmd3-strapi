@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nyheds",
+  "info": {
+    "singularName": "nyhed",
+    "pluralName": "nyheds",
+    "displayName": "Nyhed"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Broedtekst": {
+      "type": "text"
+    },
+    "Billede": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
