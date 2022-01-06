@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * kampsport service.
+ * disciplin service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::kampsport.kampsport');
+module.exports = createCoreService('api::disciplin.disciplin');

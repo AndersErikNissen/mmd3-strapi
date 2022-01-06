@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "niveaus",
+  "info": {
+    "singularName": "niveau",
+    "pluralName": "niveaus",
+    "displayName": "Niveau"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Navn": {
+      "type": "string"
+    }
+  }
+}

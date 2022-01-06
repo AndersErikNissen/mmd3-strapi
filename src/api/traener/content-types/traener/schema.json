@@ -26,11 +26,11 @@
       "target": "api::holdplan.holdplan",
       "mappedBy": "traener"
     },
-    "kampsports": {
+    "disciplins": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::kampsport.kampsport",
-      "inversedBy": "traeners"
+      "target": "api::disciplin.disciplin",
+      "mappedBy": "traeners"
     }
   }
 }

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * kampsport router.
+ * disciplin router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::kampsport.kampsport');
+module.exports = createCoreRouter('api::disciplin.disciplin');

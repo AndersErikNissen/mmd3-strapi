@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "kampsports",
+  "collectionName": "disciplins",
   "info": {
-    "singularName": "kampsport",
-    "pluralName": "kampsports",
-    "displayName": "Kampsport",
+    "singularName": "disciplin",
+    "pluralName": "disciplins",
+    "displayName": "Disciplin",
     "description": ""
   },
   "options": {
@@ -18,14 +18,14 @@
     "Beskrivelse": {
       "type": "text"
     },
-    "Link": {
-      "type": "string"
-    },
     "traeners": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::traener.traener",
-      "mappedBy": "kampsports"
+      "inversedBy": "disciplins"
+    },
+    "Link": {
+      "type": "string"
     }
   }
 }

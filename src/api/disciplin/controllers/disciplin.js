@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  kampsport controller
+ *  disciplin controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::kampsport.kampsport');
+module.exports = createCoreController('api::disciplin.disciplin');
