@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "traeners",
+  "info": {
+    "singularName": "traener",
+    "pluralName": "traeners",
+    "displayName": "Traener"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Navn": {
+      "type": "string"
+    },
+    "Alder": {
+      "type": "integer"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "holdplans": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::holdplan.holdplan",
+      "mappedBy": "traener"
+    },
+    "kampsports": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::kampsport.kampsport",
+      "inversedBy": "traeners"
+    }
+  }
+}

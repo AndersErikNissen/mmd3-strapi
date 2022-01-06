@@ -4,7 +4,8 @@
   "info": {
     "singularName": "nyhed",
     "pluralName": "nyheds",
-    "displayName": "Nyhed"
+    "displayName": "Nyhed",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,14 +18,14 @@
     "Broedtekst": {
       "type": "text"
     },
-    "Billede": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
+    "LinkBillede": {
+      "type": "string"
+    },
+    "forfatter": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::forfatter.forfatter",
+      "inversedBy": "nyheds"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "event",
     "pluralName": "events",
-    "displayName": "Event"
+    "displayName": "Event",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,20 +15,20 @@
     "Title": {
       "type": "string"
     },
-    "Billede": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "Lokation": {
       "type": "string"
     },
     "Dato": {
       "type": "datetime"
+    },
+    "LinkBillede": {
+      "type": "string"
+    },
+    "forfatter": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::forfatter.forfatter",
+      "inversedBy": "events"
     }
   }
 }

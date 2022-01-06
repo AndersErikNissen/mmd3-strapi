@@ -4,7 +4,8 @@
   "info": {
     "singularName": "kampsport",
     "pluralName": "kampsports",
-    "displayName": "Kampsport"
+    "displayName": "Kampsport",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,12 @@
     },
     "Link": {
       "type": "string"
+    },
+    "traeners": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::traener.traener",
+      "mappedBy": "kampsports"
     }
   }
 }

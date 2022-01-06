@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forfatters",
+  "info": {
+    "singularName": "forfatter",
+    "pluralName": "forfatters",
+    "displayName": "Forfatter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Navn": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event",
+      "mappedBy": "forfatter"
+    },
+    "nyheds": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::nyhed.nyhed",
+      "mappedBy": "forfatter"
+    }
+  }
+}

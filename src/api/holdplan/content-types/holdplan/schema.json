@@ -4,7 +4,8 @@
   "info": {
     "singularName": "holdplan",
     "pluralName": "holdplans",
-    "displayName": "Holdplan"
+    "displayName": "Holdplan",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,12 @@
     },
     "Lokation": {
       "type": "string"
+    },
+    "traener": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::traener.traener",
+      "inversedBy": "holdplans"
     }
   }
 }
