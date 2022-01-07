@@ -26,6 +26,11 @@
     },
     "Link": {
       "type": "string"
+    },
+    "niveau": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::niveau.niveau"
     }
   }
 }

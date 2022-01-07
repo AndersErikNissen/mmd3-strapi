@@ -4,7 +4,8 @@
   "info": {
     "singularName": "traener",
     "pluralName": "traeners",
-    "displayName": "Traener"
+    "displayName": "Traener",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,9 @@
       "relation": "manyToMany",
       "target": "api::disciplin.disciplin",
       "mappedBy": "traeners"
+    },
+    "BilledeLink": {
+      "type": "string"
     }
   }
 }
