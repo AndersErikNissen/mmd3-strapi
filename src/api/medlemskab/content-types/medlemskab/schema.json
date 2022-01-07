@@ -4,7 +4,8 @@
   "info": {
     "singularName": "medlemskab",
     "pluralName": "medlemskabs",
-    "displayName": "Medlemskab"
+    "displayName": "Medlemskab",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,16 @@
     "Beskrivelse": {
       "type": "text"
     },
-    "Pris": {
+    "Pris_before": {
+      "type": "biginteger"
+    },
+    "Pris_after": {
       "type": "biginteger"
     },
     "Ydelse": {
-      "type": "string"
+      "type": "component",
+      "repeatable": true,
+      "component": "tekst.tekst-liste"
     }
   }
 }

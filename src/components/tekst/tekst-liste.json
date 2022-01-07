@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tekst_tekst_listes",
+  "info": {
+    "displayName": "TekstListe",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Tekst": {
+      "type": "string"
+    }
+  }
+}

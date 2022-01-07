@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tekst_tekst_boks",
+  "info": {
+    "displayName": "TekstBoks",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Beskrivelse": {
+      "type": "text"
+    }
+  }
+}

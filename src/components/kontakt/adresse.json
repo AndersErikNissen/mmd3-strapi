@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_kontakt_adresses",
+  "info": {
+    "displayName": "Adresse",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "Firma": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Adresse": {
+      "type": "string"
+    },
+    "Telefon": {
+      "type": "string"
+    }
+  }
+}

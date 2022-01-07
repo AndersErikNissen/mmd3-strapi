@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  forside controller
+ *  the-footer controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::forside.forside');
+module.exports = createCoreController('api::the-footer.the-footer');

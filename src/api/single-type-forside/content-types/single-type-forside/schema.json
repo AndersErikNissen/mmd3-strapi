@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "single_type_forsides",
+  "info": {
+    "singularName": "single-type-forside",
+    "pluralName": "single-type-forsides",
+    "displayName": "SingleTypeForside",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tekst.tekst-boks-med-link"
+    },
+    "Video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tekst.tekst-boks-med-link"
+    },
+    "Traenere": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tekst.tekst-boks"
+    },
+    "Kontakt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tekst.tekst-boks-med-link"
+    }
+  }
+}

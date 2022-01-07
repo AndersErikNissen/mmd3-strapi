@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_link_text_and_links",
+  "info": {
+    "displayName": "TekstOgLink",
+    "icon": "sticky-note",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Tekst": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

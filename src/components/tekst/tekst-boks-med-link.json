@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_tekst_tekst_boks_med_links",
+  "info": {
+    "displayName": "TekstBoksMedLink",
+    "icon": "box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Beskrivelse": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

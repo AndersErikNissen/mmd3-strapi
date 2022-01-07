@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "single_type_disciplins",
+  "info": {
+    "singularName": "single-type-disciplin",
+    "pluralName": "single-type-disciplins",
+    "displayName": "SingleTypeDisciplin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tekst.tekst-boks-med-link"
+    }
+  }
+}

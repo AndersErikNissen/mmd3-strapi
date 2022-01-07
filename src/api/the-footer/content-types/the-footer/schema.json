@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "the_footers",
+  "info": {
+    "singularName": "the-footer",
+    "pluralName": "the-footers",
+    "displayName": "TheFooter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.text-and-link"
+    },
+    "AMA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.text-and-link"
+    },
+    "Kontakt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kontakt.adresse"
+    },
+    "SoMe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.text-and-link"
+    }
+  }
+}

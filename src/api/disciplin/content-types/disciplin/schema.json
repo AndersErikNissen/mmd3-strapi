@@ -31,6 +31,19 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::niveau.niveau"
+    },
+    "Fokus": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tekst.tekst-boks"
+    },
+    "FokusBillede": {
+      "type": "string"
+    },
+    "Intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tekst.tekst-boks"
     }
   }
 }

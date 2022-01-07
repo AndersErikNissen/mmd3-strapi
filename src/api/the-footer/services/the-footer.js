@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * forside service.
+ * the-footer service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::forside.forside');
+module.exports = createCoreService('api::the-footer.the-footer');
