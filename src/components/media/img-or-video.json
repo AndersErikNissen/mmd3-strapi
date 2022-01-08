@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_media_img_or_videos",
+  "info": {
+    "displayName": "imgOrVideo",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "MedieLink": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}
