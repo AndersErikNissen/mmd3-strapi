@@ -12,24 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Tider": {
+    "tider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tekst.tekst-liste"
+    },
+    "ama": {
       "type": "component",
       "repeatable": true,
       "component": "link.text-and-link"
     },
-    "AMA": {
-      "type": "component",
-      "repeatable": true,
-      "component": "link.text-and-link"
-    },
-    "Kontakt": {
+    "kontakt": {
       "type": "component",
       "repeatable": false,
       "component": "kontakt.adresse"
     },
-    "SoMe": {
+    "some": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "link.text-and-link"
     }
   }
