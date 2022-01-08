@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "Tekst": {
+    "tekst": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "string"
     }
   }

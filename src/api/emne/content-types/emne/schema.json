@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emnes",
+  "info": {
+    "singularName": "emne",
+    "pluralName": "emnes",
+    "displayName": "Emne"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Navn": {
+      "type": "string"
+    }
+  }
+}

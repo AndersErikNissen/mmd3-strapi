@@ -12,33 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "Beskrivelse": {
-      "type": "text"
-    },
-    "traeners": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::traener.traener",
-      "inversedBy": "disciplins"
-    },
-    "Link": {
-      "type": "string"
-    },
-    "niveau": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::niveau.niveau"
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tekst.tekst-boks"
     },
     "Fokus": {
       "type": "component",
       "repeatable": true,
       "component": "tekst.tekst-boks"
-    },
-    "FokusBillede": {
-      "type": "string"
     },
     "Intro": {
       "type": "component",

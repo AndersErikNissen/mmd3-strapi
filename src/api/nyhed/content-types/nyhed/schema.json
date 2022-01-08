@@ -26,6 +26,11 @@
       "relation": "manyToOne",
       "target": "api::forfatter.forfatter",
       "inversedBy": "nyheds"
+    },
+    "emne": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::emne.emne"
     }
   }
 }

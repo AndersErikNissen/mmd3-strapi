@@ -7,13 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Beskrivelse": {
+    "beskrivelse": {
       "type": "text"
     },
-    "Link": {
+    "link": {
       "type": "string"
     }
   }

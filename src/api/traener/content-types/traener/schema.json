@@ -27,12 +27,6 @@
       "target": "api::holdplan.holdplan",
       "mappedBy": "traener"
     },
-    "disciplins": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::disciplin.disciplin",
-      "mappedBy": "traeners"
-    },
     "BilledeLink": {
       "type": "string"
     }

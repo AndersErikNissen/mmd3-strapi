@@ -12,23 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
+    "Indhold": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tekst.tekst-boks-med-link"
     },
-    "Lokation": {
-      "type": "string"
-    },
-    "Dato": {
-      "type": "datetime"
-    },
-    "LinkBillede": {
-      "type": "string"
+    "emne": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::emne.emne"
     },
     "forfatter": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::forfatter.forfatter",
-      "inversedBy": "events"
+      "relation": "oneToOne",
+      "target": "api::forfatter.forfatter"
     }
   }
 }

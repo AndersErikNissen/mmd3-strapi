@@ -2,14 +2,15 @@
   "collectionName": "components_tekst_tekst_boks",
   "info": {
     "displayName": "TekstBoks",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Beskrivelse": {
+    "beskrivelse": {
       "type": "text"
     }
   }
