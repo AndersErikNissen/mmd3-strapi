@@ -30,7 +30,7 @@
     "kontakt": {
       "type": "component",
       "repeatable": false,
-      "component": "tekst.tekst-boks-med-link"
+      "component": "tekst.forsidekontakt"
     }
   }
 }

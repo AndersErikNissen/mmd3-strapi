@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_tekst_forsidekontakts",
+  "info": {
+    "displayName": "forsidekontakt",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "kontakttext": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tekst.tekst-boks"
+    }
+  }
+}
