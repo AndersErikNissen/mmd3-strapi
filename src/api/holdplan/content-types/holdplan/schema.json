@@ -12,19 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Dato": {
+    "dato": {
       "type": "datetime"
     },
-    "Varighed": {
+    "varighed": {
       "type": "biginteger"
     },
-    "Beskrivelse": {
+    "beskrivelse": {
       "type": "text"
     },
-    "Lokation": {
+    "lokation": {
       "type": "string"
     },
     "traener": {

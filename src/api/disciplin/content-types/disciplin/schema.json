@@ -26,6 +26,17 @@
       "type": "component",
       "repeatable": false,
       "component": "tekst.tekst-boks"
+    },
+    "traeners": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::traener.traener",
+      "mappedBy": "disciplins"
+    },
+    "disciplin_kategoris": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::disciplin-kategori.disciplin-kategori"
     }
   }
 }

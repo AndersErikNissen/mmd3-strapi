@@ -12,15 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Indhold": {
+    "indhold": {
       "type": "component",
       "repeatable": true,
       "component": "tekst.tekst-boks-med-link"
-    },
-    "emne": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::emne.emne"
     },
     "forfatter": {
       "type": "relation",

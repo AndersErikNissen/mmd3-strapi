@@ -12,22 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Hero": {
+    "hero": {
       "type": "component",
       "repeatable": false,
       "component": "tekst.tekst-boks-med-link"
     },
-    "Video": {
+    "video": {
       "type": "component",
       "repeatable": false,
       "component": "tekst.tekst-boks-med-link"
     },
-    "Traenere": {
+    "traenere_info": {
       "type": "component",
       "repeatable": false,
       "component": "tekst.tekst-boks"
     },
-    "Kontakt": {
+    "kontakt": {
       "type": "component",
       "repeatable": false,
       "component": "tekst.tekst-boks-med-link"

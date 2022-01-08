@@ -12,19 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Beskrivelse": {
+    "beskrivelse": {
       "type": "text"
     },
-    "Pris_before": {
+    "prisbefore": {
       "type": "biginteger"
     },
-    "Pris_after": {
+    "prisafter": {
       "type": "biginteger"
     },
-    "Ydelse": {
+    "ydelse": {
       "type": "component",
       "repeatable": true,
       "component": "tekst.tekst-liste"

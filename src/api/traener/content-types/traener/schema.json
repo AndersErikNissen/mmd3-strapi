@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Navn": {
+    "navn": {
       "type": "string"
     },
-    "Alder": {
+    "alder": {
       "type": "integer"
     },
-    "Email": {
+    "email": {
       "type": "email"
     },
     "holdplans": {
@@ -27,8 +27,20 @@
       "target": "api::holdplan.holdplan",
       "mappedBy": "traener"
     },
-    "BilledeLink": {
+    "billede": {
       "type": "string"
+    },
+    "disciplins": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::disciplin.disciplin",
+      "inversedBy": "traeners"
+    },
+    "disciplin_kategorises": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::disciplin-kategori.disciplin-kategori",
+      "mappedBy": "traener"
     }
   }
 }
