@@ -27,15 +27,23 @@
       "repeatable": false,
       "component": "tekst.tekst-boks"
     },
-    "kontakt": {
-      "type": "component",
-      "repeatable": false,
-      "component": "tekst.forsidekontakt"
-    },
     "medlemskab_info": {
       "type": "component",
       "repeatable": false,
       "component": "tekst.tekst-boks"
+    },
+    "spoergsmaal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tekst.tekst-boks"
+    },
+    "bestyrelsen": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tekst.tekst-boks"
+    },
+    "kontaktbillede": {
+      "type": "string"
     }
   }
 }
