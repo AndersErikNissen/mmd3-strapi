@@ -12,9 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Hero": {
+    "hero": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "tekst.tekst-boks-med-link"
     }
   }

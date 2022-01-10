@@ -4,7 +4,8 @@
   "info": {
     "singularName": "disciplin-kategori",
     "pluralName": "disciplin-kategoris",
-    "displayName": "DisciplinKategori"
+    "displayName": "DisciplinKategori",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,9 @@
       "relation": "manyToOne",
       "target": "api::traener.traener",
       "inversedBy": "disciplin_kategorises"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

@@ -12,17 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Header": {
+    "hero": {
       "type": "component",
       "repeatable": false,
       "component": "tekst.tekst-boks"
     },
-    "Fokus": {
+    "fokus": {
       "type": "component",
       "repeatable": true,
       "component": "tekst.tekst-boks"
     },
-    "Intro": {
+    "intro": {
       "type": "component",
       "repeatable": false,
       "component": "tekst.tekst-boks"
@@ -37,6 +37,16 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::disciplin-kategori.disciplin-kategori"
+    },
+    "linkarea": {
+      "type": "component",
+      "repeatable": false,
+      "component": "disciplin.linkarea"
+    },
+    "metainfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.metainfo"
     }
   }
 }

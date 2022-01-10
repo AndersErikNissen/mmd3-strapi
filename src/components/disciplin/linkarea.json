@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_img_linkareas",
+  "info": {
+    "displayName": "linkarea",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "fokus": {
+      "type": "string"
+    }
+  }
+}
