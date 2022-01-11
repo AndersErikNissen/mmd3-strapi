@@ -14,13 +14,27 @@
   "attributes": {
     "indhold": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "tekst.tekst-boks-med-link"
     },
     "forfatter": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::forfatter.forfatter"
+    },
+    "emner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "emne.emneselector"
+    },
+    "datostart": {
+      "type": "datetime"
+    },
+    "datoslut": {
+      "type": "datetime"
+    },
+    "adresse": {
+      "type": "string"
     }
   }
 }
