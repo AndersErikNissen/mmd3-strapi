@@ -26,6 +26,18 @@
       "relation": "manyToOne",
       "target": "api::forfatter.forfatter",
       "inversedBy": "nyheds"
+    },
+    "kategori": {
+      "type": "enumeration",
+      "enum": [
+        "Generel",
+        "MuayThai",
+        "KickBoxning",
+        "Boksning",
+        "Junior",
+        "KickNBurn",
+        "MMA"
+      ]
     }
   }
 }

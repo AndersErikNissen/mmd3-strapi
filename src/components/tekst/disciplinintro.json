@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_tekst_disciplinintros",
+  "info": {
+    "displayName": "disciplinintro",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "beskrivelse1": {
+      "type": "text"
+    },
+    "beskrivelse2": {
+      "type": "text"
+    }
+  }
+}

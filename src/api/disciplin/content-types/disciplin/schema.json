@@ -22,11 +22,6 @@
       "repeatable": true,
       "component": "tekst.tekst-boks"
     },
-    "intro": {
-      "type": "component",
-      "repeatable": false,
-      "component": "tekst.tekst-boks"
-    },
     "traeners": {
       "type": "relation",
       "relation": "manyToMany",
@@ -47,6 +42,12 @@
       "type": "component",
       "repeatable": false,
       "component": "meta.metainfo"
+    },
+    "intro": {
+      "displayName": "disciplinintro",
+      "type": "component",
+      "repeatable": false,
+      "component": "tekst.disciplinintro"
     }
   }
 }
