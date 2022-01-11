@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "nyheds",
+  "collectionName": "dagenstraenings",
   "info": {
-    "singularName": "nyhed",
-    "pluralName": "nyheds",
-    "displayName": "Nyhed",
+    "singularName": "dagenstraening",
+    "pluralName": "dagenstraenings",
+    "displayName": "Dagenstraening",
     "description": ""
   },
   "options": {
@@ -18,25 +18,21 @@
     "beskrivelse": {
       "type": "text"
     },
-    "billede": {
-      "type": "string"
-    },
-    "forfatter": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::forfatter.forfatter",
-      "inversedBy": "nyheds"
+    "billeder": {
+      "type": "component",
+      "repeatable": true,
+      "component": "img.multiimg"
     },
     "emne": {
       "type": "enumeration",
       "enum": [
         "Generel",
+        "MMA",
         "MuayThai",
         "KickBoxning",
         "Boksning",
         "Junior",
-        "KickNBurn",
-        "MMA"
+        "KickNBurn"
       ]
     }
   }

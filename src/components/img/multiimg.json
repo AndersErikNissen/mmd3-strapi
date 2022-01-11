@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_img_multiimgs",
+  "info": {
+    "displayName": "multiimg",
+    "icon": "grip-vertical"
+  },
+  "options": {},
+  "attributes": {
+    "billede": {
+      "type": "string"
+    }
+  }
+}

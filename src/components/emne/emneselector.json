@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_emne_emneselectors",
+  "info": {
+    "displayName": "emneselector",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "emne": {
+      "type": "enumeration",
+      "enum": [
+        "Generel",
+        "MuayThai",
+        "KickBoxning",
+        "MMA",
+        "Boksning",
+        "KickNBurn",
+        "Junior"
+      ]
+    }
+  }
+}
