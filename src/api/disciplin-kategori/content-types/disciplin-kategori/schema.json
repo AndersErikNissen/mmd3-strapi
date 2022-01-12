@@ -18,11 +18,11 @@
     "slug": {
       "type": "string"
     },
-    "traener": {
+    "traeners": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::traener.traener",
-      "inversedBy": "disciplin_kategorises"
+      "mappedBy": "disciplin_kategoris"
     }
   }
 }

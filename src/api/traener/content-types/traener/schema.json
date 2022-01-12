@@ -30,11 +30,11 @@
       "target": "api::disciplin.disciplin",
       "inversedBy": "traeners"
     },
-    "disciplin_kategorises": {
+    "disciplin_kategoris": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "api::disciplin-kategori.disciplin-kategori",
-      "mappedBy": "traener"
+      "inversedBy": "traeners"
     }
   }
 }
