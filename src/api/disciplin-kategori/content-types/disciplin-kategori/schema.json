@@ -17,12 +17,6 @@
     },
     "slug": {
       "type": "string"
-    },
-    "traeners": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::traener.traener",
-      "mappedBy": "disciplin_kategoris"
     }
   }
 }
