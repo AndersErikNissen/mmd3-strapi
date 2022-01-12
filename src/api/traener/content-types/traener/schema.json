@@ -21,12 +21,6 @@
     "email": {
       "type": "email"
     },
-    "holdplans": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::holdplan.holdplan",
-      "mappedBy": "traener"
-    },
     "billede": {
       "type": "string"
     },

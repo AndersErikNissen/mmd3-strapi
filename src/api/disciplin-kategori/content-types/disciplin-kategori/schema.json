@@ -15,14 +15,14 @@
     "kategori": {
       "type": "string"
     },
+    "slug": {
+      "type": "string"
+    },
     "traener": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::traener.traener",
       "inversedBy": "disciplin_kategorises"
-    },
-    "slug": {
-      "type": "string"
     }
   }
 }

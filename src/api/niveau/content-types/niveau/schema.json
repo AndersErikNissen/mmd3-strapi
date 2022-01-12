@@ -4,8 +4,7 @@
   "info": {
     "singularName": "niveau",
     "pluralName": "niveaus",
-    "displayName": "Niveau",
-    "description": ""
+    "displayName": "Niveau"
   },
   "options": {
     "draftAndPublish": true

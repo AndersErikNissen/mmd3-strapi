@@ -15,12 +15,6 @@
     "title": {
       "type": "string"
     },
-    "dato": {
-      "type": "datetime"
-    },
-    "varighed": {
-      "type": "biginteger"
-    },
     "beskrivelse": {
       "type": "text"
     },
@@ -29,14 +23,27 @@
     },
     "traener": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::traener.traener",
-      "inversedBy": "holdplans"
+      "relation": "oneToOne",
+      "target": "api::traener.traener"
+    },
+    "disciplin_kategori": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::disciplin-kategori.disciplin-kategori"
     },
     "niveau": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::niveau.niveau"
+    },
+    "dato": {
+      "type": "date"
+    },
+    "starttid": {
+      "type": "time"
+    },
+    "sluttid": {
+      "type": "time"
     }
   }
 }
